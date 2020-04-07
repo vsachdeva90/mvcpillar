@@ -1,0 +1,1 @@
+Note : Please keep all public javascript files in this folder. 

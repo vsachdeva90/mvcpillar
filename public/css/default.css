@@ -1,0 +1,23 @@
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background-color: #cce6ff;
+        }
+
+        body {
+            display: table;
+        }
+
+        .welcome-block {
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .main-text{
+         display: inline-block;
+        font-size: 80px;
+        transform: scale(.5, 1);
+         color: white;
+      }
