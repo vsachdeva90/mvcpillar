@@ -1,5 +1,5 @@
 # mvcpillar
-A simple mvc structure using Node js + Reactjs setup (Sample React Component) + MongoDB Setup
+A simple mvc structure using Node js + MongoDB Setup
 
 <h2>Application Structure</h2>
 <h3>Folders</h3>
@@ -23,7 +23,6 @@ A simple mvc structure using Node js + Reactjs setup (Sample React Component) + 
 <p>app/config/appRoutes.js- Application routes file- All incoming routes should be define here</p>
 <p>app/config/appConstants.js- File containing all application constants</p>
 <p>app/config/appConfig.js- File containing all application configs</p>
-<p>app/jsxlib/home.js- Sample react js component</p>
 <p>core/routeHandler.js - Handles application routes functionality</p>
 <p>core/modulesLoader.js - File loads all mentioned modules when included</p>
 <p>core/coreErrors.js - File contains all core errors</p>
@@ -39,7 +38,6 @@ A simple mvc structure using Node js + Reactjs setup (Sample React Component) + 
 <p>Go to folder directory through terminal.</p>
 <p>Run npm install command to install required packages from package.json .</p>
 <p>After running npm install, a folder named node_modules will be there.</p>
-<p>npm run build. It will create an js file inside public/jslib folder.File name will be home_jslib.js and it is included in welcome.pug in order to call react js component.</p>
 <p>Now just run node app/index.js command in your application folder. </p>
 <p>Hit the url in your web browser http://localhost:3000/user?query=myfirstmvc to see the magic.<p>
 <p>A welcome screen will be there.Enjoy the application development.</p>
@@ -72,10 +70,5 @@ A simple mvc structure using Node js + Reactjs setup (Sample React Component) + 
 <p>express - https://www.npmjs.com/package/express </p>
 <p>pug- https://www.npmjs.com/package/pug </p>
 <p>url - https://www.npmjs.com/package/url </p>
-<p>react- https://www.npmjs.com/package/react</p>
-<p>react-dom - https://www.npmjs.com/package/react-dom</p>
 <p>body parser -https://www.npmjs.com/package/body-parser</p>
 <p>mongo db - https://www.npmjs.com/package/mongodb</p>
-<p>Also two great packages babel and webpack made the reactjs setup easier.</p>
-
-Hi test
